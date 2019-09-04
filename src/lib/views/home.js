@@ -37,7 +37,7 @@ export default (allPost) => {
       <div class="post-label bg-color-pink flex-c center-items shadow">
         <textarea cols="50" rows="2" type="text" id="text-post" class="post c-darkblue" placeholder="¿Qué quieres compartir?"></textarea>
         <div class="flex-r share-label">
-          <select id="mode" class="al-self-center">
+          <select id="mode" class="al-self-center m-r-1">
             <option value="Público">Público</option>
             <option value="Privado">Privado</option>
           </select>
